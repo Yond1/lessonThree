@@ -1,4 +1,5 @@
 import { Stars } from "./Stars";
 import { Listing } from "./Listing";
+import { MessageHistory } from "./MessageHistory";
 
-export { Stars, Listing };
+export { Stars, Listing, MessageHistory };
