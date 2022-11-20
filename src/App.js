@@ -1,10 +1,15 @@
 import React from "react";
-import { Stars } from "./components/Stars";
+import { Stars, Listing } from "./components";
+import data from "./data/etsy.json";
 
-export const App = () => {
+
+const App = () => {
   return (
     <>
-      <Stars count={4} />,
+      {/* <Stars count={4} />, */}
+      <Listing data={data}/>
     </>
   );
 };
+
+export default App;
